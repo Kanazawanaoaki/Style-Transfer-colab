@@ -5,7 +5,7 @@
 現状は[Gatys et al. 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)のNeural Style Transferのみ。
 
 ここに画像を入れたい。
-  ![dancing](https://user-images.githubusercontent.com/38127823/78241990-3fe92700-751c-11ea-868c-3c4ed7d6e0a0.jpg)
+  ![dancing](https://user-images.githubusercontent.com/38127823/78241990-3fe92700-751c-11ea-868c-3c4ed7d6e0a0.jpg)![picasso-dancing](https://user-images.githubusercontent.com/38127823/78242047-52fbf700-751c-11ea-9537-dccdb97d8fc7.jpg)
 
 
 ## cloneの仕方
