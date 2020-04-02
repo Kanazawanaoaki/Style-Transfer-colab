@@ -2,7 +2,7 @@
 
 ニューラルネットワークを使ったスタイル変換をGoogle Colaboratory上で実行する。  
 
-現状は[Gatys et al. 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)のNeural Style Transferのみ。
+現状は[Gatys et al. 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)のNeural Style Transferのみ。簡単にやったことなどを[ブログ](https://kanazawanaoaki.hatenablog.com/entry/2020/04/02/203255)に書いてあります。
 
 |コンテンツ画像|生成画像|スタイル画像|
 |---|---|---|
