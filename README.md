@@ -5,10 +5,7 @@
 現状は[Gatys et al. 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)のNeural Style Transferのみ。
 
 ここに画像を入れたい。
-<figure class="figure-image figure-image-fotolife" title="（左から）コンテンツ画像、生成画像、スタイル画像"><div class="images-row mceNonEditable">
   ![dancing](https://user-images.githubusercontent.com/38127823/78241990-3fe92700-751c-11ea-868c-3c4ed7d6e0a0.jpg)
-  ![dancing](https://user-images.githubusercontent.com/38127823/78241990-3fe92700-751c-11ea-868c-3c4ed7d6e0a0.jpg)
-  ![dancing](https://user-images.githubusercontent.com/38127823/78241990-3fe92700-751c-11ea-868c-3c4ed7d6e0a0.jpg)</div><figcaption>（左から）コンテンツ画像、生成画像、スタイル画像</figcaption></figure>
 
 
 ## cloneの仕方
