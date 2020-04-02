@@ -1,6 +1,9 @@
 # Style-Transfer-colab
 
 ニューラルネットワークを使ったスタイル変換をGoogle Colaboratory上で実行する。  
+現状は[Gatys et al. 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)のNeural Style Transferのみ。
+
+ここに画像を入れたい。
 
 ## cloneの仕方
 
@@ -20,9 +23,21 @@ drive.mount('/content/drive')
 マイドライブにcloneされて、ディレクトリが出来ているはず。 以降pullやpushをする時はこのノートブックから行う。
 
 ## 使い方
+- スタイル変換に使いたい画像をimagesフォルダの中に入れておきます。
+- noteboooksフォルダの中にあるNeural-Style-Transfer.ipynbを開きます。  
 
+- notebookの #画像のpathを指定 の部分を使いたい画像の名前に変更する。拡張子が.jpgでない場合はそこも変更する。  
+- 入力画像としてコンテンツ画像を使う場合はwhite_flagをFalseに、ホワイトノイズを使う時はTrueにする。  
 
+- パラメータを変更する場合は、notebookの下の方にある #スタイル変換を実行 の部分の値を変更する。
+- ノートブックを実行するとスタイル変換が実行されて、outputsフォルダに生成された画像が保存されます。
 
 ## フォルダの説明
-- 
+- images：スタイル変換に使いたい画像を入れておくフォルダ  
+- notebooks：.ipynb形式のノートブックが入っているフォルダ 
+- outputs：生成画像が保存されるフォルダ
 
+notebooksの中には、自分で用意した画像にスタイル変換を実行できるNeural-Style-Transfer.ipynbと、Pytorchの公式チュートリアルのcodeをほぼそのまま書いてあるneural-transfer-tutorial.ipynbがあります。  
+
+## 今後
+今回の[Gatys et al. 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)をベースとした改良版のスタイル変換手法や、[pix2pix](https://arxiv.org/abs/1611.07004)や[CycleGAN](https://arxiv.org/abs/1703.10593)などのGANを使ったスタイル変換も実装していきたい。
