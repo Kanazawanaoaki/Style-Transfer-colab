@@ -33,9 +33,11 @@ drive.mount('/content/drive')
 - スタイル変換に使いたい画像をimagesフォルダの中に入れておく。  
 - noteboooksフォルダの中にあるNeural-Style-Transfer.ipynbを開く。  
 <img width="748" alt="スクリーンショット 2020-04-02 19 36 39" src="https://user-images.githubusercontent.com/38127823/78242868-bdf9fd80-751d-11ea-8fbc-a545a85d3bb1.png">  
+
 - notebookの #画像のpathを指定 の部分を使いたい画像の名前に変更する。拡張子が.jpgでない場合はそこも変更する。  
 - 入力画像としてコンテンツ画像を使う場合はwhite_flagをFalseに、ホワイトノイズを使う時はTrueにする。  
 <img width="251" alt="スクリーンショット 2020-04-02 19 39 33" src="https://user-images.githubusercontent.com/38127823/78242887-c6523880-751d-11ea-858d-677eccb2ed47.png">  
+
 - パラメータを変更する場合は、notebookの下の方にある #スタイル変換を実行 の部分の値を変更する。   
 - ノートブックを実行するとスタイル変換が実行されて、outputsフォルダに生成された画像が保存される。  
 
