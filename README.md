@@ -8,7 +8,8 @@
 |---|---|---|
 |![dancing](https://user-images.githubusercontent.com/38127823/78241990-3fe92700-751c-11ea-868c-3c4ed7d6e0a0.jpg)|![picasso-dancing](https://user-images.githubusercontent.com/38127823/78242047-52fbf700-751c-11ea-9537-dccdb97d8fc7.jpg)|![picasso](https://user-images.githubusercontent.com/38127823/78242020-48d9f880-751c-11ea-9ac8-8a3244aef427.jpg)|
 
-## cloneの仕方
+
+## googleドライブへのcloneの仕方
 
 自分のGoogleドライブのマイドライブにterminal.ipynbを作り、以下を実行する。
 
@@ -25,6 +26,7 @@ drive.mount('/content/drive')
 ```
 マイドライブにcloneされて、ディレクトリが出来ているはず。 以降pullやpushをする時はこのノートブックから行う。
 
+
 ## 使い方
 - スタイル変換に使いたい画像をimagesフォルダの中に入れておく。  
 - noteboooksフォルダの中にあるNeural-Style-Transfer.ipynbを開く。  
@@ -34,6 +36,7 @@ drive.mount('/content/drive')
 
 - パラメータを変更する場合は、notebookの下の方にある #スタイル変換を実行 の部分の値を変更する。  
 - ノートブックを実行するとスタイル変換が実行されて、outputsフォルダに生成された画像が保存される。  
+
 
 ## フォルダの説明
 - images：スタイル変換に使いたい画像を入れておくフォルダ  
